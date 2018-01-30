@@ -1,0 +1,3 @@
+class Encrypted_binary_document
+
+end
