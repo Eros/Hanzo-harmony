@@ -1,0 +1,9 @@
+ .background {
+  box-sizinng: border-box;
+  width: 100%;
+  height: 150px;
+  padding: 3px;
+  background-image: url(https://imgur.com/a/HC0m4);
+  border: 1px solid black;
+  backgrond-size: 100% 100%;
+ }
