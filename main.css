@@ -5,13 +5,13 @@ body {
 }
 
 .hero-container {
-    width: 100vw;
-    height: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+     width: 100vw;
+     height: 100vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
 
 .hero-container h1 {
     font-size: 5em;
@@ -51,6 +51,38 @@ body {
 
     /* Background styles */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/beWz9fp.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-container-2 {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-container-2 {
+
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: white;
+
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/52LfvJP.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
